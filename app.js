@@ -5,6 +5,10 @@ const moment = require('moment');
 // Creating server
 let app = express();
 
+// set the port of our application
+// process.env.PORT lets the port be set by Heroku
+const port = process.env.PORT || 8080;
+
 // Moment.js date formats
 const dateFormats = [
     'MM-DD-YYYY',
@@ -59,4 +63,4 @@ app.get('/*', function(req, res) {
 });
 
 // Listening on port
-app.listen(3000);
+app.listen(port);
