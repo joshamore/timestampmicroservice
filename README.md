@@ -1,5 +1,5 @@
 # Timestamp Microservice
-**Deployed example [here](https://rocky-thicket-78849.herokuapp.com/).**
+**Deployed example [here](https://amoretimestamp.fly.dev/).**
 ## What it does
 When passed a date as either natural (e.g January 21, 1993) or a unix timestamp (9922929), this microservice will return the natural and unix timestamp for the given date.
 
